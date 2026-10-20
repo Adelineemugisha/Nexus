@@ -8,13 +8,13 @@ export default function App() {
       title: 'Cybersecurity',
       icon: '🛡️',
       short: 'Securing your digital perimeter comprehensively.',
-      desc: 'To ensure the absolute security of your enterprise is what we aim to do. We proactively isolate, neutralize, and prevent malicious actors or hackers before they can compromise your business ecosystem.'
+      desc: 'To ensure the security of your enterprise is what we aim to do. We proactively isolate, neutralize, and prevent malicious actors or hackers before they can compromise your business ecosystem.'
     },
     {
       title: 'QA Testing',
       icon: '🔍',
       short: 'Going deep beyond surface-level test scripts.',
-      desc: 'Quality Assurance is not merely about executing test matrices; it is an analytical pursuit. We look for hidden anomalies, edge cases, and architectural friction points that easily slip past standard reviews.'
+      desc: 'Quality Assurance is not merely about executing test matrices, it is an analytical pursuit. We look for hidden anomalies, edge cases, and architectural friction points that easily slip past standard reviews.'
     },
     {
       title: 'Web Architecture',
@@ -81,11 +81,10 @@ export default function App() {
         <div className="relative z-10 mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
           <div className="flex items-center gap-3">
             <span className="inline-flex h-2.5 w-2.5 rounded-full bg-[#2E5DE6] shadow-[0_0_14px_rgba(46,93,230,0.5)]" />
-            <span className="text-sm font-semibold tracking-[0.22em] text-[#0F2270]">NEXUS.TECH</span>
+            <span className="text-sm font-semibold tracking-[0.22em] text-[#0F2270]">NEXUS</span>
           </div>
 
           <div className="hidden items-center gap-8 text-[11px] font-medium tracking-[0.18em] text-[#0F2270]/70 md:flex">
-            <a href="#philosophy" className="transition-colors hover:text-[#2E5DE6]">PHILOSOPHY</a>
             <a href="#what-we-do" className="transition-colors hover:text-[#2E5DE6]">SERVICES</a>
             <a href="#featured-projects" className="transition-colors hover:text-[#2E5DE6]">PROJECTS</a>
             <a href="#who-we-are" className="transition-colors hover:text-[#2E5DE6]">WHO WE ARE</a>
@@ -120,12 +119,12 @@ export default function App() {
             <div className="absolute inset-0 backdrop-brightness-90" />
 
             <div className="relative z-10 mx-auto w-full max-w-7xl px-6 text-center">
-              <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.32em] text-[#2E5DE6]">Core Philosophy</p>
-              <h1 className="text-3xl font-black leading-tight tracking-wider text-[#0F2270] drop-shadow-[0_2px_12px_rgba(255,255,255,0.85)] sm:text-4xl md:text-5xl lg:text-6xl">
-                LOCAL FEEL.<br className="hidden sm:inline" /> GLOBAL REACH.
+              <p className="mb-5 text-[11px] font-semibold uppercase tracking-[0.32em] text-[#f8f8ff]">Tech to the world</p>
+              <h1 className="text-3xl font-black leading-tight tracking-wider text-[#E0B6E4] drop-shadow-[0_2px_12px_rgba(255,255,255,0.85)] sm:text-4xl md:text-5xl lg:text-6xl">
+              We are not robots.<br className="hidden sm:inline" /> We are coding girls.
               </h1>
-              <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-[#0F2270]/90 md:text-lg">
-                We construct tailored high-tech strategies centered on human-focused problem solving and impenetrable engineering infrastructure.
+              <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-[#f8f8ff]/90 md:text-lg">
+               Technology makes the world smaller, but it is the human touch that makes it better. We build secure, reliable, and scalable digital systems that connect people to what matters most.
               </p>
             </div>
           </div>
@@ -269,35 +268,49 @@ export default function App() {
           </div>
         </section>
 
-        <section id="who-we-are" className="px-6 py-16 md:py-20">
-          <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-3">
-            <div>
-              <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-[#2E5DE6]">The Brains</p>
-              <h2 className="text-2xl font-semibold tracking-[-0.04em] text-[#0F2270] md:text-3xl">Who We Are</h2>
-              <p className="mt-6 text-base leading-7 text-[#0F2270]/72">
-                We are problem-solvers who map user journeys into structured digital strategy, identify where friction actually lives, and design highly reliable technology that supports sustainable growth.
-              </p>
+        <section id="who-we-are" className="bg-[#fbfaf7] px-6 py-24 md:py-32">
+          <div className="mx-auto max-w-4xl">
+            <div className="mb-14 text-center">
+              <h2 className="font-editorial text-4xl font-medium leading-tight tracking-[-0.02em] text-[#2D3A2E] md:text-5xl">
+                Meet the Team
+              </h2>
             </div>
 
-            <div className="grid gap-6 sm:grid-cols-2 lg:col-span-2">
-              <div className="rounded-[26px] border border-[#2E5DE6]/12 bg-white p-6 text-center transition-all duration-300 hover:border-[#2E5DE6]/30 hover:shadow-[0_12px_30px_rgba(46,93,230,0.12)]">
-                <div className="mx-auto mb-6 h-28 w-28 overflow-hidden rounded-full border border-[#2E5DE6]/25 bg-white p-1">
-                  <img src="/assets/umwali.png" alt="Umwali" className="h-full w-full rounded-full object-cover" />
+            <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-10">
+              <div className="flex flex-col items-center rounded-[24px] bg-white p-10 text-center shadow-[0_8px_30px_rgba(45,58,46,0.07)] transition-shadow duration-300 hover:shadow-[0_14px_40px_rgba(45,58,46,0.12)]">
+                <div className="mb-8 flex h-64 w-44 items-end justify-center overflow-hidden team-capsule bg-[#E8E4DE]">
+                  <img
+                    src="/assets/umwali.png"
+                    alt="Umwali"
+                    className="h-full w-full object-cover object-center"
+                  />
                 </div>
-                <h3 className="text-lg font-semibold text-[#0F2270]">Umwali</h3>
-                <p className="mt-2 text-[10px] font-medium uppercase tracking-[0.22em] text-[#2E5DE6]">Co-Founder / UX Researcher</p>
-                <p className="mt-4 rounded-2xl border border-[#2E5DE6]/10 bg-white p-4 text-sm italic leading-6 text-[#0F2270]/72">
+                <h3 className="font-editorial text-2xl font-bold leading-tight text-[#2D3A2E]">
+                  Umwali
+                </h3>
+                <p className="mt-2 text-[11px] font-medium uppercase tracking-[0.24em] text-[#5A6B7C] font-sans-clean">
+                UX Researcher / Product Designer
+                </p>
+                <p className="mt-5 max-w-xs text-sm leading-relaxed italic text-[#5A6B7C]/80 font-sans-clean">
                   “Mapping intentional human journeys into complex digital infrastructure is how we create scalable value.”
                 </p>
               </div>
 
-              <div className="rounded-[26px] border border-[#2E5DE6]/12 bg-white p-6 text-center transition-all duration-300 hover:border-[#2E5DE6]/30 hover:shadow-[0_12px_30px_rgba(46,93,230,0.12)]">
-                <div className="mx-auto mb-6 h-28 w-28 overflow-hidden rounded-full border border-[#2E5DE6]/25 bg-white p-1">
-                  <img src="/assets/adeline.png" alt="Adeline" className="h-full w-full rounded-full object-cover" />
+              <div className="flex flex-col items-center rounded-[24px] bg-white p-10 text-center shadow-[0_8px_30px_rgba(45,58,46,0.07)] transition-shadow duration-300 hover:shadow-[0_14px_40px_rgba(45,58,46,0.12)]">
+                <div className="mb-8 flex h-64 w-44 items-end justify-center overflow-hidden team-capsule bg-[#E8E4DE]">
+                  <img
+                    src="/assets/adeline.png"
+                    alt="Adeline"
+                    className="h-full w-full object-cover object-center"
+                  />
                 </div>
-                <h3 className="text-lg font-semibold text-[#0F2270]">Adeline</h3>
-                <p className="mt-2 text-[10px] font-medium uppercase tracking-[0.22em] text-[#2E5DE6]">Co-Founder / Technical Architect</p>
-                <p className="mt-4 rounded-2xl border border-[#2E5DE6]/10 bg-white p-4 text-sm italic leading-6 text-[#0F2270]/72">
+                <h3 className="font-editorial text-2xl font-bold leading-tight text-[#2D3A2E]">
+                  Adeline
+                </h3>
+                <p className="mt-2 text-[11px] font-medium uppercase tracking-[0.24em] text-[#5A6B7C] font-sans-clean">
+                Technical Architect / Software Engineer
+                </p>
+                <p className="mt-5 max-w-xs text-sm leading-relaxed italic text-[#5A6B7C]/80 font-sans-clean">
                   “We harness algorithmic precision and artificial intelligence to turn ambiguous problems into robust pipelines.”
                 </p>
               </div>
@@ -305,22 +318,45 @@ export default function App() {
           </div>
         </section>
 
-        <section id="mission" className="px-6 py-16 md:py-20">
-          <div className="mx-auto grid max-w-6xl gap-6 md:grid-cols-2">
-            <div className="rounded-[28px] border border-[#2E5DE6]/12 bg-white p-7 transition-all duration-300 hover:border-[#2E5DE6]/30 hover:shadow-[0_12px_30px_rgba(46,93,230,0.12)]">
-              <div className="mb-5 text-3xl">🎯</div>
-              <h3 className="mb-3 text-2xl font-semibold tracking-[-0.04em] text-[#0F2270]">Our Mission</h3>
-              <p className="text-base leading-7 text-[#0F2270]/72">
-                To architect fully secure, highly integrated digital frameworks that safeguard business assets, optimize transactional workflows, and reveal invisible anomalies through rigorous Quality Assurance and predictive design.
-              </p>
+        <section id="mission" className="bg-[#fbfaf7] px-6 py-24 md:py-32">
+          <div className="mx-auto max-w-5xl">
+            <div className="mb-12 text-center">
+              <p className="mb-4 text-[11px] font-medium uppercase tracking-[0.3em] text-[#5A6B7C] font-sans-clean">Our Purpose</p>
+              <h2 className="font-editorial text-4xl font-medium leading-tight tracking-[-0.02em] text-[#2D3A2E] md:text-5xl">
+                Mission &amp; Vision
+              </h2>
             </div>
 
-            <div className="rounded-[28px] border border-[#2E5DE6]/12 bg-white p-7 transition-all duration-300 hover:border-[#2E5DE6]/30 hover:shadow-[0_12px_30px_rgba(46,93,230,0.12)]">
-              <div className="mb-5 text-3xl">🚀</div>
-              <h3 className="mb-3 text-2xl font-semibold tracking-[-0.04em] text-[#0F2270]">Our Vision</h3>
-              <p className="text-base leading-7 text-[#0F2270]/72">
-                To stand as an elite technological vanguard where user-centered journeys seamlessly mesh with AI for good, proving that every organizational problem has a secure, elegant, and measurable solution.
-              </p>
+            <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-10">
+              <div className="group relative overflow-hidden rounded-[28px] border border-white/60 bg-white/40 p-8 backdrop-blur-xl backdrop-saturate-150 shadow-[0_8px_32px_rgba(15,34,112,0.08)] transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] hover:scale-[1.02] hover:border-white/80 hover:shadow-[0_20px_50px_rgba(15,34,112,0.16)]">
+                <div className="absolute -left-14 -top-14 h-40 w-40 rounded-full bg-gradient-to-br from-[#2E5DE6]/25 to-[#6E92F2]/15 blur-2xl" />
+
+                <div className="relative mb-7 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-[#2E5DE6] to-[#4A78E8] text-3xl icon-pulse">
+                  🎯
+                </div>
+
+                <h3 className="mb-4 bg-gradient-to-r from-[#0F2270] to-[#2E5DE6] bg-clip-text font-editorial text-3xl font-bold leading-tight tracking-[-0.03em] text-transparent">
+                  Our Mission
+                </h3>
+                <p className="text-base leading-relaxed text-[#0F2270]/78 font-sans-clean">
+                  To architect <span className="font-semibold text-[#0F2270]">fully secure</span>, highly integrated digital frameworks that safeguard business assets, optimize transactional workflows, and reveal invisible anomalies through rigorous <span className="text-[#2E5DE6]">Quality Assurance</span> and <span className="text-[#2E5DE6]">predictive design</span>.
+                </p>
+              </div>
+
+              <div className="group relative overflow-hidden rounded-[28px] border border-white/60 bg-white/40 p-8 backdrop-blur-xl backdrop-saturate-150 shadow-[0_8px_32px_rgba(15,34,112,0.08)] transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] hover:scale-[1.02] hover:border-white/80 hover:shadow-[0_20px_50px_rgba(15,34,112,0.16)]">
+                <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-gradient-to-br from-[#2E5DE6]/25 to-[#6E92F2]/15 blur-2xl" />
+
+                <div className="relative mb-7 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-[#2E5DE6] to-[#4A78E8] text-3xl icon-lift">
+                  🚀
+                </div>
+
+                <h3 className="mb-4 bg-gradient-to-r from-[#0F2270] to-[#2E5DE6] bg-clip-text font-editorial text-3xl font-bold leading-tight tracking-[-0.03em] text-transparent">
+                  Our Vision
+                </h3>
+                <p className="text-base leading-relaxed text-[#0F2270]/78 font-sans-clean">
+                  To stand as an elite technological vanguard where user-centered journeys seamlessly mesh with <span className="font-semibold text-[#0F2270]">AI for good</span>, proving that every organizational problem possesses a <span className="text-[#2E5DE6]">secure</span>, <span className="text-[#2E5DE6]">elegant</span>, and <span className="text-[#2E5DE6]">measurable</span> solution.
+                </p>
+              </div>
             </div>
           </div>
         </section>
@@ -336,7 +372,7 @@ export default function App() {
                   <span className="text-2xl">📍</span>
                   <div>
                     <p className="text-[10px] font-medium uppercase tracking-[0.24em] text-[#2E5DE6]">Headquarters</p>
-                    <p className="mt-1 text-sm text-[#0F2270]">Kigali Innovation City, Rwanda</p>
+                    <p className="mt-1 text-sm text-[#0F2270]">Kigali City, Rwanda</p>
                   </div>
                 </div>
               </div>
