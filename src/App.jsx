@@ -32,7 +32,7 @@ export default function App() {
       title: 'API Integration',
       icon: '⚡',
       short: 'Harmonizing distributed software systems seamlessly.',
-      desc: 'We bring real-time communication between disconnected platform components into reality. By flawlessly merging your POS with backend systems, data silos are permanently eliminated.'
+      desc: 'We bring real-time communication between disconnected platform components into reality. By flawlessly merging your POS with the backend systems, data silos are permanently eliminated.'
     },
     {
       title: 'Predictive Analytics',
