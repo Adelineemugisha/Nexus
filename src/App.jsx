@@ -150,8 +150,8 @@ export default function App() {
         <section id="what-we-do" className="px-6 py-16 md:py-20">
           <div className="mx-auto max-w-7xl">
             <div className="mb-10 text-center">
-              <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-[#2E5DE6]">What We Do</p>
-              <h2 className="text-2xl font-semibold tracking-[-0.04em] text-[#0F2270] md:text-3xl">Capability Architecture</h2>
+              <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-[#2E5DE6]">Capability Architecture</p>
+              <h2 className="text-2xl font-semibold tracking-[-0.04em] text-[#0F2270] md:text-3xl">What We Do</h2>
             </div>
 
             <div className="grid items-start gap-8 lg:grid-cols-[1.25fr_0.75fr]">
@@ -230,7 +230,7 @@ export default function App() {
           <div className="mx-auto max-w-7xl">
             <div className="mb-10 text-center">
               <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.28em] text-[#2E5DE6]">Featured Work</p>
-              <h2 className="text-2xl font-semibold tracking-[-0.04em] text-[#0F2270] md:text-3xl">Featured Engineering Projects</h2>
+              <h2 className="text-2xl font-semibold tracking-[-0.04em] text-[#0F2270] md:text-3xl">Our Projects</h2>
             </div>
 
             <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-5">
