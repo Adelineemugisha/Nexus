@@ -13,7 +13,7 @@ export default function App() {
     {
       title: 'QA Testing',
       icon: '🔍',
-      short: 'Going deep beyond surface-level test scripts.',
+      short: 'More than test scripts.',
       desc: 'Quality Assurance is not merely about executing test matrices, it is an analytical pursuit. We look for hidden anomalies, edge cases, and architectural friction points that easily slip past standard reviews.'
     },
     {
@@ -85,10 +85,10 @@ export default function App() {
           </div>
 
           <div className="hidden items-center gap-8 text-[11px] font-medium tracking-[0.18em] text-[#0F2270]/70 md:flex">
-            <a href="#what-we-do" className="transition-colors hover:text-[#2E5DE6]">SERVICES</a>
-            <a href="#featured-projects" className="transition-colors hover:text-[#2E5DE6]">PROJECTS</a>
-            <a href="#who-we-are" className="transition-colors hover:text-[#2E5DE6]">WHO WE ARE</a>
-            <a href="#contacts" className="transition-colors hover:text-[#2E5DE6]">CONTACT</a>
+            <a href="#what-we-do" className="transition-colors hover:text-[#2D3A2E]">SERVICES</a>
+            <a href="#featured-projects" className="transition-colors hover:text-[#2D3A2E]">PROJECTS</a>
+            <a href="#who-we-are" className="transition-colors hover:text-[#2D3A2E]">WHO WE ARE</a>
+            <a href="#contacts" className="transition-colors hover:text-[#2D3A2E]">CONTACT</a>
           </div>
         </div>
       </nav>
